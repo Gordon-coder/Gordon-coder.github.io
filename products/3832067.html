@@ -1,0 +1,230 @@
+<!--Sillico-->
+<!--By Gordon Peng - 'Gordon-coder'-->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Head-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <title>
+     Blockchain Intelligent Hardware 
+</title>
+    </head>
+    <body>
+        <!--Header-->
+        <div id="header">
+            <img src="../static/jpgs/side.jpg" height="40" onclick="showsidebar()" id="side">
+            <img src="../static/jpgs/logo.jpg" alt="Logo" width="174">
+            <span id="links">
+                <a href="../index.html" class="header-a">Mainpage</a>
+                <a href="../index.html#about-us" class="header-a" >About Us</a>
+                <a href="../index.html#news" class="header-a" >News</a>
+                <a href="../index.html#key-products" class="header-a" >Key Products</a>
+                <a href="../index.html#contact-us" class="header-a" >Contact us</a>
+            </span>
+        </div>
+        <!--Sidebar-->
+        <div id="sidebar">
+            <div id="side-links">
+                <a href="../index.html" class="header-a">Mainpage</a><br>
+                <a href="../index.html#about-us" class="header-a" >About Us</a><br>
+                <a href="../index.html#news" class="header-a" >News</a><br>
+                <a href="../index.html#key-products" class="header-a" >Key Products</a><br>
+                <a href="../index.html#contact-us" class="header-a" >Contact us</a><br>
+            </div>
+        </div>
+        <!--Script for sidebar-->
+        <script>
+            function showsidebar() {
+                if (document.getElementById("sidebar").style.visibility == "visible"){
+                    document.getElementById("sidebar").style.visibility = "hidden";
+                } else {
+                    document.getElementById("sidebar").style.visibility = "visible";
+                }
+            }
+
+            function reset() {
+                if (window.matchMedia("(min-width: 800px)").matches) {
+                    document.getElementById("sidebar").style.visibility = "hidden";
+                }
+            }
+
+            setInterval(reset, 100);
+        </script>
+        <main>
+            <!--Picture animaton-->
+            <div id="animation">
+                <img src="../static/jpgs/description/d1.jpg" onclick="next()" id="description" width="100%">
+                <script>
+                    var d = 1;
+                    function next() {
+                        d++;
+
+                        if (d == 4) {
+                            d = 1;
+                        }
+
+                        document.getElementById("description").src = "../static/jpgs/description/d"+d+".jpg";
+                    }
+                    //setInterval(next, 10000);
+                </script>
+            </div>
+            <!--Main block-->
+            
+<div style="margin: 20px 5%; width: calc(90%-5px-5px);">
+    <h3>
+     Blockchain Intelligent Hardware 
+</h3>
+    <p style="color:rgb(66, 66, 66)"> 
+    IoT + Blockchain
+</p>
+    <button type="button" name="inquire" id="bt" style="background-color:red; padding:5px;">Inquire Now!</button>
+    <br>
+    <hr>
+    <br>
+    <div> 
+    <img id="img" src="../static/jpgs/products/3832067/p.jpg" width="100%">
+</div>
+    <h4 style="padding: 5px">Product details</h4>
+    <hr>
+    
+    <div style="padding: 20px">
+        <style>
+            li {
+                padding: 5px;
+            }
+        </style>
+        <h4 style="padding: 5px">Blockchain FPGA algorithm terminal</h4>
+        <hr>
+        <h5 style="padding: 5px">Product Features</h5>
+        <ul>
+            <li>
+                1 28nm FPGA chip computing power board
+            </li>
+            <li>
+                1 Raspberry Pi main control board
+            </li>
+            <li>
+                Support multiple algorithms for re-downloading
+            </li>
+            <li>Power consumption: &#60;40W</li>
+        </ul>
+        <h5 style="padding: 5px">Market positioning</h5>
+        <ul>
+            <li>
+                According to the needs of the blockchain operation team, provide variable algorithm blockchain terminal solution node solution services
+            </li>
+            <li>
+                Supports downloading of multiple algorithms, and the algorithm can be changed regularly according to the needs of the operation team to prevent computing power hijacking
+            </li>
+        </ul>
+        <img id="img" src="../static/jpgs/products/3832067/p.jpg" width="50%">
+        <h4 style="padding: 5px">Blockchain Scanner</h4>
+        <hr>
+        <h5 style="padding: 5px">Product Features</h5>
+        <ul>
+            <li>
+                Built-in 32-bit secure blockchain security chip
+            </li>
+            <li>
+                Supports multiple blockchain security algorithms
+            </li>
+            <li>
+                Support 2G wireless Internet access and WiFi connection, which can be seamlessly connected with the existing user system
+            </li>
+            <li>
+                Support various QR code scanning forms, and connect with the user-specified system
+            </li>
+        </ul>
+        <h5 style="padding: 5px">Product service plan</h5>
+        <ul>
+            <li>
+                According to the user's product needs, various specifications of blockchain code scanners can be customized
+            </li>
+        </ul>
+        <img id="img" src="../static/jpgs/products/3832067/p-img1.jpg" width="50%">
+        <h4 style="padding: 5px">Blockchain Data Transfer Module (DTU)</h4>
+        <hr>
+        <h5 style="padding: 5px">Product Features</h5>
+        <ul>
+            <li>
+                Built-in 32-bit secure blockchain security chip
+            </li>
+            <li>
+                Supports multiple blockchain security algorithms
+            </li>
+            <li>
+                Support 485/UART data interface
+            </li>
+            <li>
+                Support mobile/Unicom/Telecom operators, support 2G/4G access
+            </li>
+            <li>
+                Support local SIM card/ESIM access, built-in cloud SIM remote configuration technology, can flexibly schedule traffic requirements according to user needs, users do not need to buy SIM cards by themselves
+            </li>
+            <li>
+                4G bandwidth up to 150M, meeting high-bandwidth data uplink requirements such as monitoring and remote server synchronization
+            </li>
+        </ul>
+        <h5 style="padding: 5px">Product service plan</h5>
+        <ul>
+            <li>
+                Can cooperate with traditional intelligent hardware, seamlessly support traditional intelligent hardware on-chain
+            </li>
+            <li>
+                Support multiple algorithm downloads, which can be customized according to the needs of the operation team
+            </li>
+        </ul>
+        <img id="img" src="../static/jpgs/products/3832067/p-img2.jpg" width="50%">
+    </div>
+
+</div>
+
+        </main>
+        <footer id="contact-us">
+            <!--Footer-->
+            <h2>CONTACT US</h2><br>
+            <span id="how-to-contact1">
+                <ul>
+                    <li>
+                        <a href=""><img src="../static/jpgs/footer/wechat.jpg" width="30px"></a><br>
+                        sz_insilico
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/insilicochina/"><img src="../static/jpgs/footer/facebook.jpg" width="30px"></a><br>
+                        insilicochina
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/insilicochina"><img src="../static/jpgs/footer/twitter.jpg" width="30px"></a><br>
+                        insilicochina
+                    </li>
+                    <li>
+                        <a href="https://github.com/SilicoDesign/Blockchain-Tech"><img src="../static/jpgs/footer/github.jpg" width="30px"></a><br>
+                        SilicoDesign/Blockchain-Tech
+                    </li>
+                </ul>
+            </span>
+            <span id="how-to-contact2">
+                <ul>
+                    <li>
+                        <img src="../static/jpgs/footer/tel.jpg">
+                        0755-8653 4493
+                    </li>
+                    <li>
+                        <img src="../static/jpgs/footer/mail.jpg">
+                        silico@silico.design
+                    </li>
+                    <li>
+                        <img src="../static/jpgs/footer/location.jpg">
+                        Room 2306, Changhong Science and Technology Building, No. 18, Keji South 12th Road, Nanshan District, Shenzhen, China
+                    </li>
+                </ul>
+            </span>
+        </footer>
+        <div id="copy">
+            Copyright &copy; 2018-2028 www.insil.co All Rights Reserved Shenzhen Corechain Technology Co., Ltd.
+        </div>
+    </body>
+</html>

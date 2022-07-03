@@ -1,0 +1,164 @@
+<!--Sillico-->
+<!--By Gordon Peng - 'Gordon-coder'-->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Head-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <title>
+     Blockchain supervision and depository infrastructure 
+</title>
+    </head>
+    <body>
+        <!--Header-->
+        <div id="header">
+            <img src="../static/jpgs/side.jpg" height="40" onclick="showsidebar()" id="side">
+            <img src="../static/jpgs/logo.jpg" alt="Logo" width="174">
+            <span id="links">
+                <a href="../index.html" class="header-a">Mainpage</a>
+                <a href="../index.html#about-us" class="header-a" >About Us</a>
+                <a href="../index.html#news" class="header-a" >News</a>
+                <a href="../index.html#key-products" class="header-a" >Key Products</a>
+                <a href="../index.html#contact-us" class="header-a" >Contact us</a>
+            </span>
+        </div>
+        <!--Sidebar-->
+        <div id="sidebar">
+            <div id="side-links">
+                <a href="../index.html" class="header-a">Mainpage</a><br>
+                <a href="../index.html#about-us" class="header-a" >About Us</a><br>
+                <a href="../index.html#news" class="header-a" >News</a><br>
+                <a href="../index.html#key-products" class="header-a" >Key Products</a><br>
+                <a href="../index.html#contact-us" class="header-a" >Contact us</a><br>
+            </div>
+        </div>
+        <!--Script for sidebar-->
+        <script>
+            function showsidebar() {
+                if (document.getElementById("sidebar").style.visibility == "visible"){
+                    document.getElementById("sidebar").style.visibility = "hidden";
+                } else {
+                    document.getElementById("sidebar").style.visibility = "visible";
+                }
+            }
+
+            function reset() {
+                if (window.matchMedia("(min-width: 800px)").matches) {
+                    document.getElementById("sidebar").style.visibility = "hidden";
+                }
+            }
+
+            setInterval(reset, 100);
+        </script>
+        <main>
+            <!--Picture animaton-->
+            <div id="animation">
+                <img src="../static/jpgs/description/d1.jpg" onclick="next()" id="description" width="100%">
+                <script>
+                    var d = 1;
+                    function next() {
+                        d++;
+
+                        if (d == 4) {
+                            d = 1;
+                        }
+
+                        document.getElementById("description").src = "../static/jpgs/description/d"+d+".jpg";
+                    }
+                    //setInterval(next, 10000);
+                </script>
+            </div>
+            <!--Main block-->
+            
+<div style="margin: 20px 5%; width: calc(90%-5px-5px);">
+    <h3>
+     Blockchain supervision and depository infrastructure 
+</h3>
+    <p style="color:rgb(66, 66, 66)"> 
+    The middleware of the blockchain system for government data storage certificate.
+</p>
+    <button type="button" name="inquire" id="bt" style="background-color:red; padding:5px;">Inquire Now!</button>
+    <br>
+    <hr>
+    <br>
+    <div> 
+    <img id="img" src="../static/jpgs/products/4502382/p.jpg" width="100%">
+</div>
+    <h4 style="padding: 5px">Product details</h4>
+    <hr>
+    
+    <div style="padding: 20px">
+        <style>
+            li {
+                padding: 5px;
+            }
+        </style>
+
+        <h4 style="padding: 5px">Blockchain FPGA Algorithm Terminal</h4>
+        <hr>
+        Based on the block chain technology, the characteristics of data that cannot be tampered with are guaranteed from the mathematical principle, and the government data block chain supervision and certificate storage infrastructure is built to realize the block chain certificate storage of e-government data.
+        <br>
+        <strong>The overall architecture of government affairs data blockchain supervision and depository infrastructure:</strong>
+        <br>
+        <img id="img" src="../static/jpgs/products/4502382/p.jpg" width="50%">
+
+        <h4 style="padding: 5px">Data Access Gateway:</h4>
+        Encapsulates complex blockchain linking logic, provides an easy-to-use http interface for business systems, and converts monitoring data (original, automatic filtering, manual correction, manual reporting), basic water data (original, change), and key business process data. Uploaded to the blockchain according to the rules for deposit.
+        <img id="img" src="../static/jpgs/products/4502382/p-img1.jpg" width="50%">
+
+        <h4 style="padding: 5px">Data Presentation Gateway</h4>
+        It encapsulates complex data acquisition logic on the blockchain and provides an easy-to-use http interface for business systems.
+        <img id="img" src="../static/jpgs/products/4502382/p-img2.jpg" width="75%">
+    </div>
+
+</div>
+
+        </main>
+        <footer id="contact-us">
+            <!--Footer-->
+            <h2>CONTACT US</h2><br>
+            <span id="how-to-contact1">
+                <ul>
+                    <li>
+                        <a href=""><img src="../static/jpgs/footer/wechat.jpg" width="30px"></a><br>
+                        sz_insilico
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/insilicochina/"><img src="../static/jpgs/footer/facebook.jpg" width="30px"></a><br>
+                        insilicochina
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/insilicochina"><img src="../static/jpgs/footer/twitter.jpg" width="30px"></a><br>
+                        insilicochina
+                    </li>
+                    <li>
+                        <a href="https://github.com/SilicoDesign/Blockchain-Tech"><img src="../static/jpgs/footer/github.jpg" width="30px"></a><br>
+                        SilicoDesign/Blockchain-Tech
+                    </li>
+                </ul>
+            </span>
+            <span id="how-to-contact2">
+                <ul>
+                    <li>
+                        <img src="../static/jpgs/footer/tel.jpg">
+                        0755-8653 4493
+                    </li>
+                    <li>
+                        <img src="../static/jpgs/footer/mail.jpg">
+                        silico@silico.design
+                    </li>
+                    <li>
+                        <img src="../static/jpgs/footer/location.jpg">
+                        Room 2306, Changhong Science and Technology Building, No. 18, Keji South 12th Road, Nanshan District, Shenzhen, China
+                    </li>
+                </ul>
+            </span>
+        </footer>
+        <div id="copy">
+            Copyright &copy; 2018-2028 www.insil.co All Rights Reserved Shenzhen Corechain Technology Co., Ltd.
+        </div>
+    </body>
+</html>
