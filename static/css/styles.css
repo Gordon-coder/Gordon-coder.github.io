@@ -138,7 +138,14 @@ a:hover{
     padding: 5%;
 }
 
+#dad {
+    float:left;
+    width:40%;
+}
+
 #news-links {
+    float:left;
+    width:40%;
     list-style-type: none;
 }
 
