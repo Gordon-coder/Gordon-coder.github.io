@@ -136,6 +136,7 @@ a:hover{
     background-color: lightgray;
     margin-top: 800px;
     padding: 5%;
+    height:500px;
 }
 
 #dad {
@@ -146,6 +147,7 @@ a:hover{
 #news-links {
     float:left;
     width:40%;
+    padding:10px;
     list-style-type: none;
 }
 
