@@ -8,9 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../static/css/styles.css">
-        <title>
-     Safe Algorithm Speedup Board 
-</title>
+        <title> Sillico </title>
     </head>
     <body>
         <!--Header-->
@@ -75,102 +73,82 @@
             </div>
             <!--Main block-->
             
-<div style="margin: 20px 5%; width: calc(90%-5px-5px);">
-    <h3>
-     Safe Algorithm Speedup Board 
-</h3>
-    <p style="color:rgb(66, 66, 66)"> 
-    According to application requirements, algorithm module customization and FPGA selection customization are provided.
-</p>
-    <button type="button" name="inquire" id="bt" style="background-color:red; padding:5px;">Inquire Now!</button>
-    <br>
-    <hr>
-    <br>
-    <div> 
-    <img id="img" src="../static/jpgs/products/4502226/p.jpg" width="100%">
-</div>
-    <h4 style="padding: 5px">Product details</h4>
-    <hr>
-    
-    <div style="padding: 20px">
-        <style>
-            li {
-                padding: 5px;
-            }
-        </style>
-        <h5 style="padding: 5px">Safe Algorithm Speedup Board</h5>
-        <ul>
-            <li>
-                FPGA type: Xilinx K7 series FPGA
-            </li>
-            <li>
-                High-speed interface PCIE Gen2 8Lane
-            </li>
-            <li>
-                Low-speed interface USB2.0/serial port/network port
-            </li>
-            <li>
-                Algorithm support:
-            </li>
-            <ol>
-                <li>
-                    Hash class algorithms: SHA2/3, Blake, SM3
-                </li>
-                <li>
-                    Symmetric algorithm: AES, SM1
-                </li>
-                <li>
-                    Asymmetric algorithms: ECC, RSA, SM2
-                </li>
-            </ol>
-            <li>
-                Provide C language driver and call examples
-            </li>
-            <li>
-                Provide algorithm module customization and FPGA selection customization according to application requirements
-            </li>
-        </ul>
-        <img id="img" src="../static/jpgs/products/4502226/p-img1.jpg" width="50%">
-        <hr>
-        <h5 style="padding: 5px">Safe Algorithm Accelerator</h5>
-        <ul>
-            <li>
-                Motherboard Intel E5 , 8*32G memory, 5PCIe slot
-            </li>
-            <li>
-                FPGA accelerator card: 1-4 Xilinx K7 series FPGA accelerator cards
-            </li>
-            <li>
-                High-speed optical port 40Gbps
-            </li>
-            <li>
-                High-speed network port 1000M
-            </li>
-            <li>
-                Algorithm support:
-            </li>
-            <ol>
-                <li>
-                    Hash class algorithms: SHA2/3, Blake, SM3
-                </li>
-                <li>
-                    Symmetric algorithm: AES, SM1
-                </li>
-                <li>
-                    Asymmetric algorithms: ECC, RSA, SM2
-                </li>
-            </ol>
-            <li>
-                Provide C language driver and call examples
-            </li>
-            <li>
-                Provide algorithm module customization and FPGA selection customization according to application requirements
-            </li>
-        </ul>
-        <img id="img" src="../static/jpgs/products/4502226/p-img2.jpg" width="50%">
-    </div>
+    <style>
+        .jpg {
+            position: relative;
+            z-index: 1;
+            height:280px; 
+            width:360px;
+            border-radius: 10px;
+        }
 
-</div>
+        .d {
+            position: absolute;
+            padding: 20px;
+            height:240px; 
+            width:320px;
+            z-index: 2;
+            background-color: red;
+            top:0;
+            border-radius: 10px;
+            visibility: hidden;
+        }
+
+        .anchor {
+            text-decoration: none;
+            color: black;
+            margin: 30px;
+            padding: 3px;
+            border: 2px solid white;
+            border-radius: 10px;
+            display: block;
+            text-align: center;
+            width: 100px;
+        }
+
+        #list {
+            list-decoration-type: none;
+        }
+
+        #list > li {
+            display: inline-block;
+            margin: 20px;
+        }
+    </style>
+    <img src="../static/jpgs/contents/336464/p.jpg" width="100%">
+    <h1 style="text-align: center"> Customer Case</h1>
+    <ul id="list">
+        <li>
+            <div onmouseover="hover(1)" class="jpg">
+                <img src="../static/jpgs/contents/336464/p-img1.jpg"  width="360" height="280" onmousemove="hover('p1')">
+                <div class="d" id="p1" onmouseout="out('p1')">
+                    <time>2020/10/28</time>
+                    <h3>Blockchain + Education/Training</h3>
+                    <p>The core chain blockchain teaching system applied to a university in Shenzhen</p>
+                    <a class="anchor">Learn more</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div onmouseover="hover(2)" class="jpg">
+                <img src="../static/jpgs/contents/336464/p-img2.jpg" width="360" height="280" onmousemove="hover('p2')">
+                <div class="d" id="p2" onmouseout="out('p2')">
+                    <time>2020/10/28</time>
+                    <h3>Blockchain + Water Affairs</h3>
+                    <p>Water affairs blockchain data supervision and certificate system</p>
+                    <a class="anchor">Learn more</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <script>
+        function hover(id){
+            document.getElementById(id).style.visibility = "visible";
+        }
+        function out(id){
+            document.getElementById(id).style.visibility = "hidden";
+        }
+    </script>
 
         </main>
         <footer id="contact-us">

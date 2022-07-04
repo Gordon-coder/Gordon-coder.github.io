@@ -30,6 +30,7 @@
     text-align: center;
     height: 40px;
     width: 100%;
+    z-index: 1000;
 }
 
 #links {
@@ -145,9 +146,9 @@ a:hover{
 }
 
 #news-links {
+    padding:10px;
     float:left;
     width:40%;
-    padding:10px;
     list-style-type: none;
 }
 
