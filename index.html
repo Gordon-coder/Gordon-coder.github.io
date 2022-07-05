@@ -13,27 +13,27 @@
     <body>
         <!--Header-->
         <div id="header">
-            <img src="static/jpgs/side.jpg" height="40" onclick="showsidebar()" id="side">
-            <img src="static/jpgs/logo.jpg" alt="Logo" width="174">
+            <img src="./static/jpgs/side.jpg" height="40" onclick="showsidebar()" id="side">
+            <img src="./static/jpgs/logo.jpg" alt="Logo" width="174">
             <span id="links">
                 <a href="index.html" class="header-a">Mainpage</a>
                 <a href="#about-us" class="header-a" >About Us</a>
                 <a href="#news" class="header-a" >News</a>
                 <a href="#key-products" class="header-a" >Key Products</a>
-                <a href="contents/336464.html" class="header-a" >Customer Cases</a>
-                <a href="contents/793909a.html" class="header-a" >Research Institute</a>
+                <a href="./contents/336464.html" class="header-a" >Customer Cases</a>
+                <a href="./contents/793909a.html" class="header-a" >Research Institute</a>
                 <a href="#contact-us" class="header-a" >Contact us</a>
             </span>
         </div>
         <!--Sidebar-->
         <div id="sidebar">
             <div id="side-links">
-                <a href="/" class="header-a">Mainpage</a><br>
+                <a href="index.html" class="header-a">Mainpage</a><br>
                 <a href="#about-us" class="header-a" >About Us</a><br>
                 <a href="#news" class="header-a" >News</a><br>
                 <a href="#key-products" class="header-a" >Key Products</a><br>
-                <a href="contents/336464.html" class="header-a" >Customer Cases</a>
-                <a href="contents/793909a.html" class="header-a" >Research Institute</a><br>
+                <a href="./contents/336464.html" class="header-a" >Customer Cases</a>
+                <a href="./contents/793909a.html" class="header-a" >Research Institute</a><br>
                 <a href="#contact-us" class="header-a" >Contact us</a><br>
             </div>
         </div>
@@ -58,7 +58,7 @@
         <main>
             <!--Picture animaton-->
             <div id="animation">
-                <img src="static/jpgs/description/d1.jpg" onclick="next()" id="description" width="100%">
+                <img src="./static/jpgs/description/d1.jpg" onclick="next()" id="description" width="100%">
                 <script>
                     var d = 1;
                     function next() {
@@ -68,7 +68,7 @@
                             d = 1;
                         }
 
-                        document.getElementById("description").src = "static/jpgs/description/d"+d+".jpg";
+                        document.getElementById("description").src = "./static/jpgs/description/d"+d+".jpg";
                     }
                     //setInterval(next, 10000);
                 </script>
@@ -82,37 +82,37 @@
     </h1>
     <ul id="products">
         <li>
-            <a href="products/3832003.html">
-                <img src="static/jpgs/key-products/safe-alg-chip.jpg" width="220" height="220"><br>
+            <a href="./products/3832003.html">
+                <img src="./static/jpgs/key-products/safe-alg-chip.jpg" width="220" height="220"><br>
                 Safe Algorithm Chip
             </a>
         </li>
         <li>
-            <a href="products/4502226.html">
-                <img src="static/jpgs/key-products/safe-alg-speedup-board.jpg" width="220" height="220"><br>
+            <a href="./products/4502226.html">
+                <img src="./static/jpgs/key-products/safe-alg-speedup-board.jpg" width="220" height="220"><br>
                 Safe Algorithm Speedup Board
             </a>
         </li>
         <li>
-            <a href="products/3832067.html">
-                <img src="static/jpgs/key-products/blckchn-intel-hdwr.jpg" width="220" height="220"><br>
+            <a href="./products/3832067.html">
+                <img src="./static/jpgs/key-products/blckchn-intel-hdwr.jpg" width="220" height="220"><br>
                 Blockchain Intelligent Hardware
             </a>
         </li>
         <li>
-            <a href="products/4502382.html">
-                <img src="static/jpgs/key-products/blckchn-infrstruct.jpg" width="220" height="220"><br>
+            <a href="./products/4502382.html">
+                <img src="./static/jpgs/key-products/blckchn-infrstruct.jpg" width="220" height="220"><br>
                 Blockchain Supervision and Depository infrastructure
             </a>
         </li>
         <li>
-            <a href="products/3832071.html">
-                <img src="static/jpgs/key-products/blckchn-edu.jpg" width="220" height="220"><br>
+            <a href="./products/3832071.html">
+                <img src="./static/jpgs/key-products/blckchn-edu.jpg" width="220" height="220"><br>
                 Blockchain Education
             </a>
         </li>
     </ul>
-    <img src="static/jpgs/transfer.jpg" width="100%">
+    <img src="./static/jpgs/transfer.jpg" width="100%">
 </div>
 <div id="about-us">
     <div id="main-text">
@@ -121,27 +121,27 @@
     </div>
     <ul id="about">
         <li>
-            <img src="static/jpgs/about-us/1.jpg" class="list-decorators" height="45" width="45">
+            <img src="./static/jpgs/about-us/1.jpg" class="list-decorators" height="45" width="45">
             <h4>Integrated Circuit</h4>
             <p>The company's experts in the field of integrated circuits have more than ten years of design experience in the fields of security algorithms, SOC, and MCU, and have accumulated dozens of successful projects, covering information security, consumer electronics, blockchain algorithm chips and other fields. The mainstream design process reaches 14nm.</p>
         </li>
         <li>
-            <img src="static/jpgs/about-us/2.jpg" class="list-decorators" height="45" width="45">
+            <img src="./static/jpgs/about-us/2.jpg" class="list-decorators" height="45" width="45">
             <h4>Security Algorithm</h4>
             <p>The company's security experts have more than ten years of industry experience in the field of security applications, and can provide algorithm customization from various Hash algorithms, public key algorithms and consensus protocols for various industry user needs. The customization can be in the form of chips, FPGAs or intelligent hardware supply.</p>
         </li>
         <li>
-            <img src="static/jpgs/about-us/3.jpg" class="list-decorators" height="45" width="45">
+            <img src="./static/jpgs/about-us/3.jpg" class="list-decorators" height="45" width="45">
             <h4>Blockchain</h4>
             <p>The company's blockchain experts have many years of experience in blockchain design and operation, and can customize a series of vertical solutions for industry blockchains from technology, product side to operation, etc. according to the needs of industry users.</p>
         </li>
         <li>
-            <img src="static/jpgs/about-us/4.jpg" class="list-decorators" height="45" width="45">
+            <img src="./static/jpgs/about-us/4.jpg" class="list-decorators" height="45" width="45">
             <h4>Communication</h4>
             <p>The company's communication experts have more than ten years of industry experience in the field of communication, and have dozens of project experience in the fields of Internet of Things, e-SIM, NB-IoT, and LoRa applications, which can help industry users in the industrial application of blockchain. Reliable communication technology support.</p>
         </li>
         <li>
-            <img src="static/jpgs/about-us/5.jpg" class="list-decorators" height="45" width="45">
+            <img src="./static/jpgs/about-us/5.jpg" class="list-decorators" height="45" width="45">
             <h4>Smart Hardware</h4>
             <p>The company's intelligent hardware experts have more than ten years of system experience in the field of intelligent hardware design, and can work with blockchain experts to provide industry users with comprehensive solutions from blockchain wallets, blockchain hardware nodes, and blockchain mining machines. Blockchain hardware products.</p>
         </li>
@@ -149,26 +149,26 @@
 </div>
 <div id="news">
     <h2>Latest News</h2>
-    <img src="static/jpgs/dad-talking.jpg" width="50%" id="dad">
+    <img src="./static/jpgs/dad-talking.jpg" width="50%" id="dad">
     <ul id="news-links">
         <li>
-            <a href="/NewsDetail/2298002">
+            <a href="./NewsDetail/2298002">
                 2020-11-14 Yunjitong eSIM high-density card pool debuted at the 22nd China Hi-Tech Fair
             </a>
         </li>
         <li>
-            <a href="/NewsDetail/2298123">
+            <a href="./NewsDetail/2298123">
                 2020-08-15 Tianhe Guoyun and Corechain Technology reached a blockchain strategic cooperation agreement
             </a>
         </li>
         <li>
-            <a href="/NewsDetail/1882496">
+            <a href="./NewsDetail/1882496">
                 2019-06-10 Corechain Technology's first Hash algorithm ASIC chip comes out
             </a>
         </li>
     </ul>
 </div>
-<img src="static/jpgs/blockchain-stuff.jpg" width="100%">
+<img src="./static/jpgs/blockchain-stuff.jpg" width="100%">
 
         </main>
         <footer id="contact-us">
@@ -177,19 +177,19 @@
             <span id="how-to-contact1">
                 <ul>
                     <li>
-                        <a href=""><img src="static/jpgs/footer/wechat.jpg" width="30px"></a><br>
+                        <a href=""><img src="./static/jpgs/footer/wechat.jpg" width="30px"></a><br>
                         sz_insilico
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/insilicochina/"><img src="static/jpgs/footer/facebook.jpg" width="30px"></a><br>
+                        <a href="https://www.facebook.com/insilicochina/"><img src="./static/jpgs/footer/facebook.jpg" width="30px"></a><br>
                         insilicochina
                     </li>
                     <li>
-                        <a href="https://twitter.com/insilicochina"><img src="static/jpgs/footer/twitter.jpg" width="30px"></a><br>
+                        <a href="https://twitter.com/insilicochina"><img src="./static/jpgs/footer/twitter.jpg" width="30px"></a><br>
                         insilicochina
                     </li>
                     <li>
-                        <a href="https://github.com/SilicoDesign/Blockchain-Tech"><img src="static/jpgs/footer/github.jpg" width="30px"></a><br>
+                        <a href="https://github.com/SilicoDesign/Blockchain-Tech"><img src="./static/jpgs/footer/github.jpg" width="30px"></a><br>
                         SilicoDesign/Blockchain-Tech
                     </li>
                 </ul>
@@ -197,15 +197,15 @@
             <span id="how-to-contact2">
                 <ul>
                     <li>
-                        <img src="static/jpgs/footer/tel.jpg">
+                        <img src="./static/jpgs/footer/tel.jpg">
                         0755-8653 4493
                     </li>
                     <li>
-                        <img src="static/jpgs/footer/mail.jpg">
+                        <img src="./static/jpgs/footer/mail.jpg">
                         silico@silico.design
                     </li>
                     <li>
-                        <img src="static/jpgs/footer/location.jpg">
+                        <img src="./static/jpgs/footer/location.jpg">
                         Room 2306, Changhong Science and Technology Building, No. 18, Keji South 12th Road, Nanshan District, Shenzhen, China
                     </li>
                 </ul>
