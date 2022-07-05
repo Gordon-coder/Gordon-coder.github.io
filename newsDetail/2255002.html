@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../static/css/styles.css">
-        <title> Sillico </title>
+        <title>Silico</title>
     </head>
     <body>
         <!--Header-->
@@ -16,23 +16,25 @@
             <img src="../static/jpgs/side.jpg" height="40" onclick="showsidebar()" id="side">
             <img src="../static/jpgs/logo.jpg" alt="Logo" width="174">
             <span id="links">
-                <a href="../index.html" class="header-a">Mainpage</a>
-                <a href="../index.html#about-us" class="header-a" >About Us</a>
-                <a href="../index.html#news" class="header-a" >News</a>
-                <a href="../index.html#key-products" class="header-a" >Key Products</a><a href="../contents/336464.html" class="header-a" >Customer Cases</a>
-                <a href="../contents/793909a.html" class="header-a" >Research Institute</a>
-                <a href="../index.html#contact-us" class="header-a" >Contact us</a>
+                <a href="/" class="header-a">Mainpage</a>
+                <a href="/#about-us" class="header-a" >About Us</a>
+                <a href="/#news" class="header-a" >News</a>
+                <a href="/#key-products" class="header-a" >Key Products</a>
+                <a href="/contents/336464" class="header-a"> Customer Cases</a>
+                <a href="/contents/793909a" class="header-a" >Research Institute</a>
+                <a href="/#contact-us" class="header-a" >Contact us</a>
             </span>
         </div>
         <!--Sidebar-->
         <div id="sidebar">
             <div id="side-links">
-                <a href="../index.html" class="header-a">Mainpage</a><br>
-                <a href="../index.html#about-us" class="header-a" >About Us</a><br>
-                <a href="../index.html#news" class="header-a" >News</a><br>
-                <a href="../index.html#key-products" class="header-a" >Key Products</a><a href="../contents/336464.html" class="header-a" >Customer Cases</a><br>
-                <a href="../contents/793909a.html" class="header-a" >Research Institute</a><br>
-                <a href="../index.html#contact-us" class="header-a" >Contact us</a><br>
+                <a href="/" class="header-a">Mainpage</a><br>
+                <a href="/#about-us" class="header-a" >About Us</a><br>
+                <a href="/#news" class="header-a" >News</a><br>
+                <a href="/#key-products" class="header-a" >Key Products</a><br>
+                <a href="/contents/336464" class="header-a"> Customer Cases</a><br>
+                <a href="/contents/793909a" class="header-a" >Research Institute</a><br>
+                <a href="/#contact-us" class="header-a" >Contact us</a><br>
             </div>
         </div>
         <!--Script for sidebar-->
@@ -72,80 +74,14 @@
                 </script>
             </div>
             <!--Main block-->
-            
-    <style>
-        .jpg {
-            position: relative;
-            z-index: 1;
-            height:280px; 
-            width:360px;
-            border-radius: 10px;
-        }
-
-        .d {
-            position: absolute;
-            padding: 20px;
-            height:240px; 
-            width:320px;
-            z-index: 2;
-            background-color: red;
-            top:0;
-            border-radius: 10px;
-            visibility: hidden;
-        }
-
-        .anchor {
-            text-decoration: none;
-            color: black;
-            margin: 30px;
-            padding: 3px;
-            border: 2px solid white;
-            border-radius: 10px;
-            display: block;
-            text-align: center;
-            width: 100px;
-        }
-
-        #list > li {
-            display: inline-block;
-            margin: 20px;
-        }
-    </style>
-    <img src="../static/jpgs/contents/336464/p.jpg" width="100%">
-    <h1 style="text-align: center"> Customer Case</h1>
-    <ul id="list">
-        <li>
-            <div onmouseover="hover(1)" class="jpg">
-                <img src="../static/jpgs/contents/336464/p-img1.jpg"  width="360" height="280" onmousemove="hover('p1')">
-                <div class="d" id="p1" onmouseout="out('p1')">
-                    <time>2020/10/28</time>
-                    <h3>Blockchain + Education/Training</h3>
-                    <p>The core chain blockchain teaching system applied to a university in Shenzhen</p>
-                    <a class="anchor" href="../newsDetail/2255002.html">Learn more</a>
-                </div>
+            <div style="padding: 10px">
+                <h3>Blockchain + Education/Training</h3>
+                <p>Author: insilico <br>Browse: 977 <br>Published: 2020-10-28 15:01:11 <br>Source: Application Case</p>
+                <img src="../static/jpgs/newsDetail/2255002/e1.jpg" width="90%">
+                <img src="../static/jpgs/newsDetail/2255002/e2.jpg" width="90%">
+                <img src="../static/jpgs/newsDetail/2255002/e3.jpg" width="90%">
+                <img src="../static/jpgs/newsDetail/2255002/e4.jpg" width="90%">
             </div>
-        </li>
-        <li>
-            <div onmouseover="hover(2)" class="jpg">
-                <img src="../static/jpgs/contents/336464/p-img2.jpg" width="360" height="280" onmousemove="hover('p2')">
-                <div class="d" id="p2" onmouseout="out('p2')">
-                    <time>2020/10/28</time>
-                    <h3>Blockchain + Water Affairs</h3>
-                    <p>Water affairs blockchain data supervision and certificate system</p>
-                    <a class="anchor" href="/NewsDetail/2254949">Learn more</a>
-                </div>
-            </div>
-        </li>
-    </ul>
-    <script>
-        function hover(id){
-            document.getElementById(id).style.visibility = "visible";
-        }
-        function out(id){
-            document.getElementById(id).style.visibility = "hidden";
-        }
-    </script>
-
         </main>
         <footer id="contact-us">
             <!--Footer-->
